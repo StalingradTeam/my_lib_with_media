@@ -1,19 +1,27 @@
         # My_library #
 
 python -m venv
+
 pip install -r requirements.txt
+
 venv-dir\Scripts\activate.bat
+
 python manage.py runserver
+
 http://127.0.0.1:8000
 
 Панель администрирования:
+
 http://127.0.0.1:8000/admin/
+
 логин: Guest
+
 пароль: skillfaktory
 
 Главная страница:  http://127.0.0.1:8000/index/
 
 Просмотр должников книг:
+
 http://127.0.0.1:8000/friend_list
 
 Внесение автора и книг http://127.0.0.1:8000/author_book/create_many
